@@ -1,0 +1,97 @@
+﻿.urun {
+    width: 170px;
+    height: 320px;
+    margin: 5px;
+    float: left;
+    padding:7px;
+    align-content:center;
+    border-style: solid;
+}
+
+.urunresim {
+    width: 155px;
+    height: 230px;
+    text-align:center;
+
+}
+
+.urunbaslik {
+    min-height: 40px;
+    text-align: center;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight:bold;
+}
+
+.urun:hover {
+    background-color: black;
+    color: white;
+}
+
+.urunfiyat {
+    text-align: center;
+    font-style: oblique;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.bolumbaslik{
+    background-color:black;
+    text-align:center;
+    font-style:oblique;
+    color:white;
+    font-size:25px;
+}
+
+.bolumicerik{
+    display:block;
+    background-color:#F2C5A3;
+    color:black;
+    text-decoration:none;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    line-height:50px;
+    padding-left:10px;
+    font-size:22px;
+    
+}
+
+.bolumicerik:hover{
+    background-color:#F2C5A3;
+    padding-left: 15px;
+    font-weight:bold;
+    font-size:32px;
+}
+.banner{
+    height: 400px;
+    width: 1500px;
+}
+
+.literal {
+    display: block;
+    background-color: #F2C5A3;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight:bold;
+}
+    .literal:hover {
+        display: block;
+        background-color: #3C3741;
+        color: #ff0000;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+.iletisim {
+    display: inline-block;
+    background-color: #3C3741;
+    color: #ffffff;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 15px;
+}

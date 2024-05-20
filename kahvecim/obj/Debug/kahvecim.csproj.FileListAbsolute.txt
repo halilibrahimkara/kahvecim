@@ -1,0 +1,21 @@
+C:\Users\busra\source\repos\kahvecim\kahvecim\bin\kahvecim.dll.config
+C:\Users\busra\source\repos\kahvecim\kahvecim\bin\kahvecim.dll
+C:\Users\busra\source\repos\kahvecim\kahvecim\bin\kahvecim.pdb
+C:\Users\busra\source\repos\kahvecim\kahvecim\obj\Debug\kahvecim.csprojAssemblyReference.cache
+C:\Users\busra\source\repos\kahvecim\kahvecim\obj\Debug\kahvecim.csproj.CoreCompileInputs.cache
+C:\Users\busra\source\repos\kahvecim\kahvecim\obj\Debug\kahvecim.dll
+C:\Users\busra\source\repos\kahvecim\kahvecim\obj\Debug\kahvecim.pdb
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\bin\kahvecim.dll.config
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\bin\kahvecim.dll
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\bin\kahvecim.pdb
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.csprojAssemblyReference.cache
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.csproj.CoreCompileInputs.cache
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.dll
+C:\Users\can_e\Desktop\2017730053 Büşra Çetinelli Staj Ödevi\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.pdb
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\bin\kahvecim.dll.config
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\bin\kahvecim.dll
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\bin\kahvecim.pdb
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.csproj.AssemblyReference.cache
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.csproj.CoreCompileInputs.cache
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.dll
+C:\Users\halil\OneDrive\Masaüstü\Çalışmalar\E Ticaret Ödev\Backup\kahvecim\kahvecim\obj\Debug\kahvecim.pdb

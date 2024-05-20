@@ -1,0 +1,359 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C425A72C-EDC8-4273-BA43-E7494BDD95C9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kahvecim</RootNamespace>
+    <AssemblyName>kahvecim</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44376</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="resimler\1.png" />
+    <Content Include="resimler\10.png" />
+    <Content Include="resimler\100.jpg" />
+    <Content Include="resimler\100.png" />
+    <Content Include="resimler\101.jpg" />
+    <Content Include="resimler\101.png" />
+    <Content Include="resimler\102.jpg" />
+    <Content Include="resimler\102.png" />
+    <Content Include="resimler\103.jpg" />
+    <Content Include="resimler\103.png" />
+    <Content Include="resimler\104.jpg" />
+    <Content Include="resimler\104.png" />
+    <Content Include="resimler\105.jpg" />
+    <Content Include="resimler\105.png" />
+    <Content Include="resimler\106.jpg" />
+    <Content Include="resimler\106.png" />
+    <Content Include="resimler\107.jpg" />
+    <Content Include="resimler\107.png" />
+    <Content Include="resimler\108.jpg" />
+    <Content Include="resimler\108.png" />
+    <Content Include="resimler\11.jpg" />
+    <Content Include="resimler\11.png" />
+    <Content Include="resimler\12.png" />
+    <Content Include="resimler\13.png" />
+    <Content Include="resimler\14.png" />
+    <Content Include="resimler\15.png" />
+    <Content Include="resimler\16.png" />
+    <Content Include="resimler\17.png" />
+    <Content Include="resimler\18.png" />
+    <Content Include="resimler\19.png" />
+    <Content Include="resimler\2.PNG" />
+    <Content Include="resimler\20.png" />
+    <Content Include="resimler\21.png" />
+    <Content Include="resimler\22.png" />
+    <Content Include="resimler\23.png" />
+    <Content Include="resimler\24.png" />
+    <Content Include="resimler\25.png" />
+    <Content Include="resimler\26.jpg" />
+    <Content Include="resimler\26.png" />
+    <Content Include="resimler\27.jpg" />
+    <Content Include="resimler\27.png" />
+    <Content Include="resimler\28.jpg" />
+    <Content Include="resimler\28.png" />
+    <Content Include="resimler\29.jpg" />
+    <Content Include="resimler\29.png" />
+    <Content Include="resimler\3.PNG" />
+    <Content Include="resimler\30.jpg" />
+    <Content Include="resimler\30.png" />
+    <Content Include="resimler\31.jpg" />
+    <Content Include="resimler\31.png" />
+    <Content Include="resimler\32.jpg" />
+    <Content Include="resimler\32.png" />
+    <Content Include="resimler\33.jpg" />
+    <Content Include="resimler\33.png" />
+    <Content Include="resimler\34.jpg" />
+    <Content Include="resimler\34.png" />
+    <Content Include="resimler\35.jpg" />
+    <Content Include="resimler\35.png" />
+    <Content Include="resimler\36.jpg" />
+    <Content Include="resimler\36.png" />
+    <Content Include="resimler\37.jpg" />
+    <Content Include="resimler\37.png" />
+    <Content Include="resimler\38.jpg" />
+    <Content Include="resimler\38.png" />
+    <Content Include="resimler\39.jpg" />
+    <Content Include="resimler\39.png" />
+    <Content Include="resimler\4.PNG" />
+    <Content Include="resimler\40.jpg" />
+    <Content Include="resimler\40.png" />
+    <Content Include="resimler\41.jpg" />
+    <Content Include="resimler\41.png" />
+    <Content Include="resimler\42.jpg" />
+    <Content Include="resimler\42.png" />
+    <Content Include="resimler\43.jpg" />
+    <Content Include="resimler\43.png" />
+    <Content Include="resimler\44.jpg" />
+    <Content Include="resimler\44.png" />
+    <Content Include="resimler\45.jpg" />
+    <Content Include="resimler\45.png" />
+    <Content Include="resimler\46.jpg" />
+    <Content Include="resimler\46.png" />
+    <Content Include="resimler\47.jpg" />
+    <Content Include="resimler\47.png" />
+    <Content Include="resimler\48.jpg" />
+    <Content Include="resimler\48.png" />
+    <Content Include="resimler\49.jpg" />
+    <Content Include="resimler\49.png" />
+    <Content Include="resimler\5.png" />
+    <Content Include="resimler\50.jpg" />
+    <Content Include="resimler\50.png" />
+    <Content Include="resimler\51.jpg" />
+    <Content Include="resimler\51.png" />
+    <Content Include="resimler\52.jpg" />
+    <Content Include="resimler\52.png" />
+    <Content Include="resimler\53.jpg" />
+    <Content Include="resimler\53.png" />
+    <Content Include="resimler\54.jpg" />
+    <Content Include="resimler\54.png" />
+    <Content Include="resimler\55.jpg" />
+    <Content Include="resimler\55.png" />
+    <Content Include="resimler\56.jpg" />
+    <Content Include="resimler\56.png" />
+    <Content Include="resimler\57.jpg" />
+    <Content Include="resimler\57.png" />
+    <Content Include="resimler\58.jpg" />
+    <Content Include="resimler\58.png" />
+    <Content Include="resimler\59.jpg" />
+    <Content Include="resimler\59.png" />
+    <Content Include="resimler\6.png" />
+    <Content Include="resimler\60.jpg" />
+    <Content Include="resimler\60.png" />
+    <Content Include="resimler\61.jpg" />
+    <Content Include="resimler\61.png" />
+    <Content Include="resimler\62.jpg" />
+    <Content Include="resimler\62.png" />
+    <Content Include="resimler\63.jpg" />
+    <Content Include="resimler\63.png" />
+    <Content Include="resimler\64.jpg" />
+    <Content Include="resimler\64.png" />
+    <Content Include="resimler\65.jpg" />
+    <Content Include="resimler\65.png" />
+    <Content Include="resimler\66.jpg" />
+    <Content Include="resimler\66.png" />
+    <Content Include="resimler\67.jpg" />
+    <Content Include="resimler\67.png" />
+    <Content Include="resimler\68.jpg" />
+    <Content Include="resimler\68.png" />
+    <Content Include="resimler\69.jpg" />
+    <Content Include="resimler\69.png" />
+    <Content Include="resimler\7.png" />
+    <Content Include="resimler\70.jpg" />
+    <Content Include="resimler\70.png" />
+    <Content Include="resimler\71.jpg" />
+    <Content Include="resimler\71.png" />
+    <Content Include="resimler\72.jpg" />
+    <Content Include="resimler\72.png" />
+    <Content Include="resimler\73.jpg" />
+    <Content Include="resimler\73.png" />
+    <Content Include="resimler\74.jpg" />
+    <Content Include="resimler\74.png" />
+    <Content Include="resimler\75.jpg" />
+    <Content Include="resimler\75.png" />
+    <Content Include="resimler\76.jpg" />
+    <Content Include="resimler\76.png" />
+    <Content Include="resimler\77.jpg" />
+    <Content Include="resimler\77.png" />
+    <Content Include="resimler\78.jpg" />
+    <Content Include="resimler\78.png" />
+    <Content Include="resimler\79.jpg" />
+    <Content Include="resimler\79.png" />
+    <Content Include="resimler\8.png" />
+    <Content Include="resimler\80.jpg" />
+    <Content Include="resimler\80.png" />
+    <Content Include="resimler\81.jpg" />
+    <Content Include="resimler\81.png" />
+    <Content Include="resimler\82.jpg" />
+    <Content Include="resimler\82.png" />
+    <Content Include="resimler\83.jpg" />
+    <Content Include="resimler\83.png" />
+    <Content Include="resimler\84.jpg" />
+    <Content Include="resimler\84.png" />
+    <Content Include="resimler\85.jpg" />
+    <Content Include="resimler\85.png" />
+    <Content Include="resimler\86.jpg" />
+    <Content Include="resimler\86.png" />
+    <Content Include="resimler\87.jpg" />
+    <Content Include="resimler\87.png" />
+    <Content Include="resimler\88.jpg" />
+    <Content Include="resimler\88.png" />
+    <Content Include="resimler\89.jpg" />
+    <Content Include="resimler\89.png" />
+    <Content Include="resimler\9.png" />
+    <Content Include="resimler\90.jpg" />
+    <Content Include="resimler\90.png" />
+    <Content Include="resimler\91.jpg" />
+    <Content Include="resimler\91.png" />
+    <Content Include="resimler\92.jpg" />
+    <Content Include="resimler\92.png" />
+    <Content Include="resimler\93.jpg" />
+    <Content Include="resimler\93.png" />
+    <Content Include="resimler\94.jpg" />
+    <Content Include="resimler\94.png" />
+    <Content Include="resimler\95.jpg" />
+    <Content Include="resimler\95.png" />
+    <Content Include="resimler\96.jpg" />
+    <Content Include="resimler\96.png" />
+    <Content Include="resimler\97.jpg" />
+    <Content Include="resimler\97.png" />
+    <Content Include="resimler\98.jpg" />
+    <Content Include="resimler\98.png" />
+    <Content Include="resimler\99.jpg" />
+    <Content Include="resimler\99.png" />
+    <Content Include="resimler\logo.jpg" />
+    <Content Include="sepett.aspx" />
+    <Content Include="tasarım.css" />
+    <Content Include="Web.config" />
+    <Content Include="anasayfa.aspx" />
+    <Content Include="kullanicigirisi.aspx" />
+    <Content Include="sepet.aspx" />
+    <Content Include="uyeol.aspx" />
+    <Content Include="urun.aspx" />
+    <Content Include="gecmis.aspx" />
+    <Content Include="satinal.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanicigirisi.aspx.cs">
+      <DependentUpon>kullanicigirisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanicigirisi.aspx.designer.cs">
+      <DependentUpon>kullanicigirisi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepet.aspx.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepet.aspx.designer.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepett.aspx.cs">
+      <DependentUpon>sepett.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepett.aspx.designer.cs">
+      <DependentUpon>sepett.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uyeol.aspx.cs">
+      <DependentUpon>uyeol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uyeol.aspx.designer.cs">
+      <DependentUpon>uyeol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urun.aspx.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urun.aspx.designer.cs">
+      <DependentUpon>urun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="gecmis.aspx.cs">
+      <DependentUpon>gecmis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gecmis.aspx.designer.cs">
+      <DependentUpon>gecmis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="satinal.aspx.cs">
+      <DependentUpon>satinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="satinal.aspx.designer.cs">
+      <DependentUpon>satinal.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54130</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44376/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
